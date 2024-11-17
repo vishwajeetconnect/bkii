@@ -14,8 +14,8 @@ body {
   
   .carousel-item {
     --items: 10;
-    --width: clamp(150px, 30vw, 300px);
-    --height: clamp(200px, 40vw, 400px);
+    --width: clamp(550px, 30vw, 300px);
+    --height: clamp(700px, 40vw, 400px);
     --x: calc(var(--active) * 800%);
     --y: calc(var(--active) * 200%);
     --rot: calc(var(--active) * 120deg);
@@ -68,7 +68,7 @@ body {
     bottom: 20px;
     left: 20px;
     transition: opacity 0.8s cubic-bezier(0, 0.02, 0, 1);
-    font-size: clamp(20px, 3vw, 30px);
+    font-size: clamp(50px, 3vw, 30px);
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
   }
   .carousel-item .num {
